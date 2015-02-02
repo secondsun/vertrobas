@@ -2,8 +2,8 @@ package net.saga.vertrotbas.structs;
 
 public class Player {
 
-    Point3f where, // Current position
+    public Point3f where, // Current position
             velocity;   // Current motion vector
-    float angle, anglesin, anglecos, yaw;   // Looking towards (and sin() and cos() thereof)
-    int sector;
+    public float angle, anglesin, anglecos, yaw;   // Looking towards (and sin() and cos() thereof)
+    public int sector;
 }

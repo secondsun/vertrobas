@@ -1,6 +1,8 @@
 package net.saga.vertrotbas;
 
 import java.awt.Color;
+import static net.saga.vertrotbas.Portrend.player;
+import net.saga.vertrotbas.structs.Player;
 import net.saga.vertrotbas.structs.Point2f;
 import static org.lwjgl.opengl.GL11.*;
 
@@ -144,5 +146,7 @@ public class Util {
 
         return new Point2f(x, y);
     }
+    
+     public static float Yaw(float y,float z, Player player) {return (y + z*player.yaw);}
 
 }

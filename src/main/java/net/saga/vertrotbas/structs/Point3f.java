@@ -1,7 +1,7 @@
 package net.saga.vertrotbas.structs;
 
-class Point3f {
+public class Point3f {
 
-    float x, y, z;
+    public float x, y, z;
     
 }
